@@ -1,0 +1,1 @@
+=IF(COUNTIF($B$1:B1, B1) = 1, MAX($C$1:C1) + 1, VLOOKUP(B1, $B$1:$C$8, 2, FALSE))
